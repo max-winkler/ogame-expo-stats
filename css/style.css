@@ -1,0 +1,169 @@
+.content {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.headline {
+    position: relative;
+    border: solid 1px #555;
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    width: calc(100% - 22px);
+    height: 250px;
+    padding: 20px 0 10px 20px;
+    box-shadow: 0px 1px 2px;
+    background: url('../banner.jpg');
+    object-fit: cover;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,85,127,0.7);
+    border: 1px solid #555;
+    /* overflow: hidden; */
+    position: absolute;
+    bottom: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align:center;
+    padding: 12px;    
+}
+
+.navbar a:hover {
+    background-color: rgba(10,95,137,0.9);
+}
+
+.active {
+    background-color: rgba(0,85,127,1.0);
+    color: white;
+}
+
+a {
+    color: rgba(0,85,177,1.0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    background-color: rgba(203,171,112,0.3);
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 12pt;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3c63;
+}
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #2d3c63;
+}
+
+.good {
+    color: green;
+    font-weight: bold;
+}
+
+.bad {
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    border: solid 2px #2d3c63;
+    width: 100%;
+    border-radius: 8px;
+    border-spacing: 0;
+}
+
+table thead tr{
+    background-color: rgba(203,171,112,0.6);
+}
+table tbody tr{
+    background-color: rgba(203,171,112,0.3);
+}
+
+table thead tr th{
+    border-bottom: solid 1px black;
+    text-align: left;
+    padding: 10px;
+}
+
+table tbody tr td{
+    vertical-align: top;
+    padding: 10px;
+}
+
+.user_name {
+    color: #2c4f85;
+    font-weight: bold;
+}
+
+.resource {
+    color: #065b66;
+}
+
+.cell_time {
+    font-size: small;
+}
+
+.box {
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.tight {
+    width: unset;
+    margin-right: 50px;
+}
+
+.big_image {
+    width: 90%;
+    max-width: 600px;
+}
+
+input {
+  background-color: rgba(0,85,127,0.7);
+  color: white;
+  font-size: 14px;
+  border: none;
+  padding: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    font-weight: bold;
+}
+input[type="button"] {
+    padding: 10px;
+    font-weight: bold;
+}
+
+input:hover {
+    background-color: rgba(0,85,127,1.0);
+}
+
+select {
+    background-color: rgba(0,85,127,0.5);
+    color: white;
+    font-size: 14px;
+    border: none;
+    padding: 4px;
+}

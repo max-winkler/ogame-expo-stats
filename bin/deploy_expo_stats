@@ -1,0 +1,1 @@
+rsync -avz ~/Programming/ExpoStat/ root@raspberrypi:/var/www/ExpoStat
